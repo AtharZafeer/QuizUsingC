@@ -14,7 +14,7 @@ int questions(int i, int score)
         printf(" Which crop is sown on the largest area in India?\n");
         printf("a:Rice \t b:Wheat \t c:Sugarcane  \n");
         scanf("%c",&sol);
-        sc=return (answer(i,sol,score));
+        sc=(answer(i,sol,score));
         return sc;//score is sent to interface function
 		break;
          case 2:
