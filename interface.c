@@ -36,7 +36,7 @@ void main()
 		
 			
 		}
-		printf("Your final SCORE is %d\n THANK YOU FOR PLAYING",score);
+		printf("Your final SCORE is %d\n THANK YOU FOR PLAYING.\n MAY THE JOURNEY YOU TAKE, BRING YOU VICTORIES",score);
 	}
     
 
