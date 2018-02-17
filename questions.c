@@ -53,7 +53,7 @@ int questions(int i, int score)
         printf("Which is the Land of the Rising Sun?   \n");
         printf("a:Japan \t b: Australia \t c: China \n");
         scanf("%c",&sol);
-         sc=answer(i,sol,score));return sc;
+         sc=answer(i,sol,score);return sc;
         break;
          case 8:
         printf("The largest ocean in the world is \n");
@@ -176,7 +176,7 @@ if((score>=10)&&(score<<15))
         scanf("%c",&sol);
          sc= (answer(i,sol,score));return sc;break;
 		case 5:
-        printf(""FET" is a type of transistor, Its full name is ________ Effect Transistor...? \n");
+        printf(" \"FET\" is a type of transistor, Its full name is ________ Effect Transistor...? \n");
         printf("a: Field   \t b: Factor  \t c: Flash  \t d: Force \n");
         scanf("%c",&sol);
          sc=(answer(i,sol,score));return sc;break;
