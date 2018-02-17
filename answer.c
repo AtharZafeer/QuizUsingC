@@ -5,7 +5,7 @@
 int num=0;
 int answer(int i,char sol,int score)
 {
-	 if((score>=0)&&(score<<5))
+	 if((score>=0)&&(score<5))
 	{
 		switch(i)
     {
@@ -104,7 +104,7 @@ int answer(int i,char sol,int score)
 		
 	}
 }
- if((score>=5)&&(score<<10))
+else if((score>=5)&&(score<10))
 	{
 		switch(i)
     {
@@ -200,7 +200,7 @@ int answer(int i,char sol,int score)
 		break;
 	}
 }
-if((score>=10)&&(score<<15))
+else if((score>=10)&&(score<15))
 	{
 		switch(i)
     {
@@ -296,7 +296,7 @@ if((score>=10)&&(score<<15))
 		break;
 	}
 }
-if((score>=15)&&(score<=20))
+else if((score>=15)&&(score<=20))
 	{
 		switch(i)
     {
@@ -398,7 +398,7 @@ if((score>=15)&&(score<=20))
     int score,i,c;
     i=2;
     score=9;
-    c=questions(i,score);
+    c=answers(i,'a',score);
     printf("%d",c);
     
 }*/
