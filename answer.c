@@ -1,7 +1,7 @@
 #include<stdlib.h>
 #include<stdio.h>
 #include<string.h>
-#inlcude"quiz.h"
+#include"quiz.h"
 int num=0;
 int answer(int i,char sol,int score)
 {
