@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include"quiz.h"
  
 // Generates and prints 'count' random numbers in
 // range [lower, upper].
