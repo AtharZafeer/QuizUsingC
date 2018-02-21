@@ -23,8 +23,8 @@ void main()
 		printf("\n\t\t\t YOUR FIRST QUESTION IS");
 		score=0;f=0;
 		while(exit==1)
-		{
-			for(k=0;k<5;k++)
+		{	for(x=0;x<4;x++)
+		       {	for(k=0;k<5;k++)
 			{
 				i=printRandoms(1,10,1);
 				f=questions(i,score);
@@ -34,7 +34,7 @@ void main()
 			printf("DO YOU WANT TO CONTINUE TO PLAYING THE GAME? IF YES ENTER 1, ELSE ENTER 0");
 			scanf("%d",&exit);
 		
-			
+		       }	
 		}
 		printf("Your final SCORE is %d\n THANK YOU FOR PLAYING.\n MAY THE JOURNEY YOU TAKE, BRING YOU VICTORIES",score);
 	}
